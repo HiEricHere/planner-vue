@@ -1,0 +1,42 @@
+@import "./styles/reset";
+@import "./styles/variables";
+@import "./styles/layout";
+
+// Default settings
+html {
+  font-size: $fontsize;
+}
+
+body {
+  height: calc(100vh - (#{$margin} * 2));
+  padding: $margin;
+}
+
+main > * {
+  padding: $margin;
+}
+
+img {
+  vertical-align: bottom;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  line-height: 1.25rem;
+}

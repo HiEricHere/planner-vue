@@ -1,0 +1,20 @@
+// Main Layout
+
+#user-pane, #calendar-pane {
+  grid-column: 1/2;
+}
+#user-pane {
+  grid-row: 1/2;
+}
+#calendar-pane {
+  grid-row: 2/3;
+}
+#task-pane {
+  grid-column: 2/3;
+}
+#detail-pane {
+  grid-column: 3/4;
+}
+#task-pane, #detail-pane {
+  grid-row: 1/3;
+}
